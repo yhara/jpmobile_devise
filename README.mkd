@@ -1,8 +1,8 @@
-jpmobile$B$H(BRails3$B$H(Bdevise$B$rAH$_9g$o$;$k%F%9%H!#(B
+jpmobileとRails3とdeviseを組み合わせるテスト。
 
-$B$$$^$N$H$3$m!"%m%0%$%s2hLL$K%j%@%$%l%/%H$9$k:]$K%(%i!<$K$J$j$^$9!#(B
+いまのところ、ログイン画面にリダイレクトする際にエラーになります。
 
-$BF0$+$7J}(B
+動かし方
 --------
 
     $ git clone git://github.com/yhara/jpmobile_devise.git
@@ -12,7 +12,7 @@ jpmobile$B$H(BRails3$B$H(Bdevise$B$rAH$_9g$o$;$k%F%9%H!#(B
     $ rails s
     $ open http://localhost:3000/
 
-$B%H%C%W%Z!<%8$N%j%s%/$r2!$9$H!"0J2<$N$h$&$J%(%i!<$K$J$j$^$9!#(B
+トップページのリンクを押すと、以下のようなエラーになります。
 
      NoMethodError in TopController#hello
 
@@ -37,5 +37,5 @@ jpmobile$B$H(BRails3$B$H(Bdevise$B$rAH$_9g$o$;$k%F%9%H!#(B
     actionpack (3.0.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
     actionpack (3.0.1) lib/action_dispatch/middleware/head.rb:14:in `call'
     rack (1.2.1) lib/rack/methodoverride.rb:24:in `call'
-    ($B8eN,(B)
+    (後略)
 
